@@ -7,3 +7,6 @@ Scripts associated with the production of Chapter Two, Multiple diversification 
 4. Script for estimating diversification parameters of empirical trees with CladDS and then simulating trees with those parameters under every combination of diversification model and preservation regime
 5. Script for analysing the imbalance of trees simulated from parameter values of empirical trees estimate with CladDS
 6. Script for making lolipop graph of empirical trees
+
+CI_simulation_output_ne100.csv contains the input parameters and output values of the trees simulated under every combination of diversification model and preservation regime. 
+
