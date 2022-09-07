@@ -10,3 +10,4 @@ Scripts associated with the production of Chapter Two, Multiple diversification 
 
 CI_simulation_output_ne100.csv contains the input parameters and output values of the trees simulated under every combination of diversification model and preservation regime. 
 
+ClaDS_summary_all_trees.csv includes the input parameters and output values of the trees simulated from CladDS estimates for empirical trees under every combination of diversification model and preservation regime.
