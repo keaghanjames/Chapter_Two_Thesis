@@ -11,3 +11,5 @@ Scripts associated with the production of Chapter Two, Multiple diversification 
 CI_simulation_output_ne100.csv contains the input parameters and output values of the trees simulated under every combination of diversification model and preservation regime. 
 
 ClaDS_summary_all_trees.csv includes the input parameters and output values of the trees simulated from CladDS estimates for empirical trees under every combination of diversification model and preservation regime.
+
+The best_model_sim.txt includes the model summary for the glmm fit to the dataset generated from the general simulation procedure and the [study]_best_model.txt files are model sumaries for each of the glmm models fit to the dataset generated from the informed simulation procedure. 
