@@ -1,0 +1,232 @@
+
+=============================================================================================
+                                                                     Dependent variable:     
+                                                                -----------------------------
+                                                                         log(index)          
+---------------------------------------------------------------------------------------------
+modelUniversal Speciation Shift                                            -0.084*           
+                                                                           (0.034)           
+                                                                                             
+modelShifting Specation                                                   -0.122**           
+                                                                           (0.042)           
+                                                                                             
+modelShifting Extinction                                                    0.032            
+                                                                           (0.046)           
+                                                                                             
+modelShifting Speciation Extinction                                        -0.037            
+                                                                           (0.045)           
+                                                                                             
+modelMass Extinction Constant                                              0.084*            
+                                                                           (0.034)           
+                                                                                             
+modelMass Extinction Shifting                                              0.077*            
+                                                                           (0.034)           
+                                                                                             
+modelAge Dependent                                                        0.306***           
+                                                                           (0.054)           
+                                                                                             
+modelDiversity Dependent                                                   -0.058            
+                                                                           (0.034)           
+                                                                                             
+modelDiversity Dependent Ki                                                0.097**           
+                                                                           (0.035)           
+                                                                                             
+preservationdiversified                                                     0.006            
+                                                                           (0.008)           
+                                                                                             
+preservationtrait_dependent                                                 0.015            
+                                                                           (0.008)           
+                                                                                             
+preservationtime_dependent                                                -0.073***          
+                                                                           (0.008)           
+                                                                                             
+lambda_init                                                               0.165***           
+                                                                           (0.031)           
+                                                                                             
+mu_init                                                                     0.060            
+                                                                           (0.033)           
+                                                                                             
+Tree_length                                                               0.313***           
+                                                                           (0.008)           
+                                                                                             
+Fossil_no                                                                 -0.281***          
+                                                                           (0.078)           
+                                                                                             
+modelUniversal Speciation Shift:preservationdiversified                    -0.010            
+                                                                           (0.011)           
+                                                                                             
+modelShifting Specation:preservationdiversified                            -0.007            
+                                                                           (0.011)           
+                                                                                             
+modelShifting Extinction:preservationdiversified                           -0.001            
+                                                                           (0.011)           
+                                                                                             
+modelShifting Speciation Extinction:preservationdiversified                0.0004            
+                                                                           (0.011)           
+                                                                                             
+modelMass Extinction Constant:preservationdiversified                      -0.013            
+                                                                           (0.011)           
+                                                                                             
+modelMass Extinction Shifting:preservationdiversified                      -0.0003           
+                                                                           (0.011)           
+                                                                                             
+modelAge Dependent:preservationdiversified                                 -0.003            
+                                                                           (0.011)           
+                                                                                             
+modelDiversity Dependent:preservationdiversified                           -0.005            
+                                                                           (0.011)           
+                                                                                             
+modelDiversity Dependent Ki:preservationdiversified                        -0.008            
+                                                                           (0.011)           
+                                                                                             
+modelUniversal Speciation Shift:preservationtrait_dependent                -0.019            
+                                                                           (0.011)           
+                                                                                             
+modelShifting Specation:preservationtrait_dependent                        -0.0004           
+                                                                           (0.011)           
+                                                                                             
+modelShifting Extinction:preservationtrait_dependent                       -0.002            
+                                                                           (0.011)           
+                                                                                             
+modelShifting Speciation Extinction:preservationtrait_dependent            -0.002            
+                                                                           (0.011)           
+                                                                                             
+modelMass Extinction Constant:preservationtrait_dependent                 -0.033**           
+                                                                           (0.011)           
+                                                                                             
+modelMass Extinction Shifting:preservationtrait_dependent                 -0.040***          
+                                                                           (0.011)           
+                                                                                             
+modelAge Dependent:preservationtrait_dependent                              0.001            
+                                                                           (0.011)           
+                                                                                             
+modelDiversity Dependent:preservationtrait_dependent                       -0.009            
+                                                                           (0.011)           
+                                                                                             
+modelDiversity Dependent Ki:preservationtrait_dependent                    -0.002            
+                                                                           (0.011)           
+                                                                                             
+modelUniversal Speciation Shift:preservationtime_dependent                 0.035**           
+                                                                           (0.011)           
+                                                                                             
+modelShifting Specation:preservationtime_dependent                          0.014            
+                                                                           (0.011)           
+                                                                                             
+modelShifting Extinction:preservationtime_dependent                        -0.007            
+                                                                           (0.011)           
+                                                                                             
+modelShifting Speciation Extinction:preservationtime_dependent              0.022            
+                                                                           (0.011)           
+                                                                                             
+modelMass Extinction Constant:preservationtime_dependent                  0.082***           
+                                                                           (0.011)           
+                                                                                             
+modelMass Extinction Shifting:preservationtime_dependent                  0.076***           
+                                                                           (0.011)           
+                                                                                             
+modelAge Dependent:preservationtime_dependent                              0.026*            
+                                                                           (0.011)           
+                                                                                             
+modelDiversity Dependent:preservationtime_dependent                       0.064***           
+                                                                           (0.011)           
+                                                                                             
+modelDiversity Dependent Ki:preservationtime_dependent                     0.028*            
+                                                                           (0.011)           
+                                                                                             
+modelUniversal Speciation Shift:lambda_init                               -0.108***          
+                                                                           (0.033)           
+                                                                                             
+modelShifting Specation:lambda_init                                       -0.139***          
+                                                                           (0.040)           
+                                                                                             
+modelShifting Extinction:lambda_init                                        0.027            
+                                                                           (0.041)           
+                                                                                             
+modelShifting Speciation Extinction:lambda_init                            -0.059            
+                                                                           (0.041)           
+                                                                                             
+modelMass Extinction Constant:lambda_init                                   0.030            
+                                                                           (0.033)           
+                                                                                             
+modelMass Extinction Shifting:lambda_init                                   0.009            
+                                                                           (0.033)           
+                                                                                             
+modelAge Dependent:lambda_init                                              0.031            
+                                                                           (0.042)           
+                                                                                             
+modelDiversity Dependent:lambda_init                                      -0.216***          
+                                                                           (0.035)           
+                                                                                             
+modelDiversity Dependent Ki:lambda_init                                   -0.113***          
+                                                                           (0.034)           
+                                                                                             
+modelUniversal Speciation Shift:mu_init                                   0.134***           
+                                                                           (0.035)           
+                                                                                             
+modelShifting Specation:mu_init                                           0.158***           
+                                                                           (0.044)           
+                                                                                             
+modelShifting Extinction:mu_init                                           -0.030            
+                                                                           (0.045)           
+                                                                                             
+modelShifting Speciation Extinction:mu_init                                 0.063            
+                                                                           (0.044)           
+                                                                                             
+modelMass Extinction Constant:mu_init                                      -0.018            
+                                                                           (0.036)           
+                                                                                             
+modelMass Extinction Shifting:mu_init                                       0.002            
+                                                                           (0.035)           
+                                                                                             
+modelAge Dependent:mu_init                                                 -0.042            
+                                                                           (0.045)           
+                                                                                             
+modelDiversity Dependent:mu_init                                          0.187***           
+                                                                           (0.037)           
+                                                                                             
+modelDiversity Dependent Ki:mu_init                                       0.201***           
+                                                                           (0.035)           
+                                                                                             
+lambda_init:mu_init                                                       -0.013**           
+                                                                           (0.004)           
+                                                                                             
+lambda_init:Tree_length                                                   0.114***           
+                                                                           (0.005)           
+                                                                                             
+modelUniversal Speciation Shift:Fossil_no                                  0.174*            
+                                                                           (0.078)           
+                                                                                             
+modelShifting Specation:Fossil_no                                         -0.362***          
+                                                                           (0.100)           
+                                                                                             
+modelShifting Extinction:Fossil_no                                          0.090            
+                                                                           (0.109)           
+                                                                                             
+modelShifting Speciation Extinction:Fossil_no                              -0.083            
+                                                                           (0.108)           
+                                                                                             
+modelMass Extinction Constant:Fossil_no                                     0.149            
+                                                                           (0.078)           
+                                                                                             
+modelMass Extinction Shifting:Fossil_no                                    0.161*            
+                                                                           (0.078)           
+                                                                                             
+modelAge Dependent:Fossil_no                                                0.093            
+                                                                           (0.123)           
+                                                                                             
+modelDiversity Dependent:Fossil_no                                         -0.002            
+                                                                           (0.083)           
+                                                                                             
+modelDiversity Dependent Ki:Fossil_no                                     -0.262**           
+                                                                           (0.083)           
+                                                                                             
+Constant                                                                  -2.907***          
+                                                                           (0.032)           
+                                                                                             
+---------------------------------------------------------------------------------------------
+Observations                                                                20000            
+Log Likelihood                                                            7247.353           
+Akaike Inf. Crit.                                                        -14344.710          
+Bayesian Inf. Crit.                                                      -13751.940          
+=============================================================================================
+Note:                                                           *p<0.05; **p<0.01; ***p<0.001
