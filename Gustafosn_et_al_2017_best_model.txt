@@ -1,0 +1,231 @@
+
+====================================================================
+                                            Dependent variable:     
+                                       -----------------------------
+                                                log(index)          
+--------------------------------------------------------------------
+modelC                                           -0.526***          
+                                                  (0.072)           
+                                                                    
+modelC+ME                                        -0.398***          
+                                                  (0.050)           
+                                                                    
+modelDD                                          -0.432***          
+                                                  (0.052)           
+                                                                    
+modelDD+KI                                       -0.431***          
+                                                  (0.051)           
+                                                                    
+modelE                                           -0.211***          
+                                                  (0.057)           
+                                                                    
+modelS                                           0.315***           
+                                                  (0.050)           
+                                                                    
+modelS+E                                         0.422***           
+                                                  (0.050)           
+                                                                    
+modelS+ME                                        -0.414***          
+                                                  (0.050)           
+                                                                    
+modelUS                                          -0.300***          
+                                                  (0.050)           
+                                                                    
+preservationrandom                                 0.003            
+                                                  (0.011)           
+                                                                    
+preservationtime_dependent                       0.178***           
+                                                  (0.011)           
+                                                                    
+preservationtrait_dependent                       -0.007            
+                                                  (0.011)           
+                                                                    
+lambda_init                                                         
+                                                                    
+                                                                    
+mu_init                                                             
+                                                                    
+                                                                    
+Tree_length                                      0.002***           
+                                                 (0.0001)           
+                                                                    
+Fossil_no                                       -0.0004***          
+                                                 (0.0001)           
+                                                                    
+modelC:preservationrandom                         -0.006            
+                                                  (0.015)           
+                                                                    
+modelC+ME:preservationrandom                      -0.004            
+                                                  (0.015)           
+                                                                    
+modelDD:preservationrandom                        -0.001            
+                                                  (0.015)           
+                                                                    
+modelDD+KI:preservationrandom                     -0.003            
+                                                  (0.015)           
+                                                                    
+modelE:preservationrandom                         -0.003            
+                                                  (0.015)           
+                                                                    
+modelS:preservationrandom                         -0.003            
+                                                  (0.015)           
+                                                                    
+modelS+E:preservationrandom                       -0.004            
+                                                  (0.015)           
+                                                                    
+modelS+ME:preservationrandom                      -0.001            
+                                                  (0.015)           
+                                                                    
+modelUS:preservationrandom                        -0.001            
+                                                  (0.015)           
+                                                                    
+modelC:preservationtime_dependent                 -0.020            
+                                                  (0.015)           
+                                                                    
+modelC+ME:preservationtime_dependent               0.007            
+                                                  (0.015)           
+                                                                    
+modelDD:preservationtime_dependent               -0.081***          
+                                                  (0.015)           
+                                                                    
+modelDD+KI:preservationtime_dependent            -0.103***          
+                                                  (0.015)           
+                                                                    
+modelE:preservationtime_dependent                 -0.009            
+                                                  (0.015)           
+                                                                    
+modelS:preservationtime_dependent                 -0.022            
+                                                  (0.015)           
+                                                                    
+modelS+E:preservationtime_dependent               -0.035*           
+                                                  (0.015)           
+                                                                    
+modelS+ME:preservationtime_dependent               0.011            
+                                                  (0.015)           
+                                                                    
+modelUS:preservationtime_dependent                -0.024            
+                                                  (0.015)           
+                                                                    
+modelC:preservationtrait_dependent                -0.002            
+                                                  (0.015)           
+                                                                    
+modelC+ME:preservationtrait_dependent             -0.001            
+                                                  (0.015)           
+                                                                    
+modelDD:preservationtrait_dependent                0.003            
+                                                  (0.015)           
+                                                                    
+modelDD+KI:preservationtrait_dependent            -0.007            
+                                                  (0.015)           
+                                                                    
+modelE:preservationtrait_dependent                -0.003            
+                                                  (0.015)           
+                                                                    
+modelS:preservationtrait_dependent                 0.005            
+                                                  (0.015)           
+                                                                    
+modelS+E:preservationtrait_dependent              -0.009            
+                                                  (0.015)           
+                                                                    
+modelS+ME:preservationtrait_dependent             -0.006            
+                                                  (0.015)           
+                                                                    
+modelUS:preservationtrait_dependent               0.0003            
+                                                  (0.015)           
+                                                                    
+modelC:lambda_init                                                  
+                                                                    
+                                                                    
+modelC+ME:lambda_init                                               
+                                                                    
+                                                                    
+modelDD:lambda_init                                                 
+                                                                    
+                                                                    
+modelDD+KI:lambda_init                                              
+                                                                    
+                                                                    
+modelE:lambda_init                                                  
+                                                                    
+                                                                    
+modelS:lambda_init                                                  
+                                                                    
+                                                                    
+modelS+E:lambda_init                                                
+                                                                    
+                                                                    
+modelS+ME:lambda_init                                               
+                                                                    
+                                                                    
+modelUS:lambda_init                                                 
+                                                                    
+                                                                    
+modelC:mu_init                                                      
+                                                                    
+                                                                    
+modelC+ME:mu_init                                                   
+                                                                    
+                                                                    
+modelDD:mu_init                                                     
+                                                                    
+                                                                    
+modelDD+KI:mu_init                                                  
+                                                                    
+                                                                    
+modelE:mu_init                                                      
+                                                                    
+                                                                    
+modelS:mu_init                                                      
+                                                                    
+                                                                    
+modelS+E:mu_init                                                    
+                                                                    
+                                                                    
+modelS+ME:mu_init                                                   
+                                                                    
+                                                                    
+modelUS:mu_init                                                     
+                                                                    
+                                                                    
+lambda_init:mu_init                                                 
+                                                                    
+                                                                    
+lambda_init:Tree_length                                             
+                                                                    
+                                                                    
+modelC:Fossil_no                                 0.001***           
+                                                 (0.0001)           
+                                                                    
+modelC+ME:Fossil_no                              0.0003***          
+                                                 (0.0001)           
+                                                                    
+modelDD:Fossil_no                                0.0003***          
+                                                 (0.0001)           
+                                                                    
+modelDD+KI:Fossil_no                             0.0004***          
+                                                 (0.0001)           
+                                                                    
+modelE:Fossil_no                                  0.0001            
+                                                 (0.0001)           
+                                                                    
+modelS:Fossil_no                                -0.0003***          
+                                                 (0.0001)           
+                                                                    
+modelS+E:Fossil_no                               -0.001***          
+                                                 (0.0001)           
+                                                                    
+modelS+ME:Fossil_no                              0.0003***          
+                                                 (0.0001)           
+                                                                    
+modelUS:Fossil_no                                0.0002**           
+                                                 (0.0001)           
+                                                                    
+Constant                                         -2.586***          
+                                                  (0.049)           
+                                                                    
+--------------------------------------------------------------------
+Observations                                       40000            
+Log Likelihood                                    822.558           
+Akaike Inf. Crit.                                -1543.115          
+====================================================================
+Note:                                  *p<0.05; **p<0.01; ***p<0.001
