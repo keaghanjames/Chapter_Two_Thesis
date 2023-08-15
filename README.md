@@ -1,5 +1,5 @@
-# Chapter_Two_Thesis
-Scripts associated with the production of Chapter Two, Multiple diversification and preservation models can make combined-evidence phylogenies more imbalanced but only a few make them look like empirical trees
+# Imbalance and Total-Evidence Phylogenies
+Scripts associated with the production of 'Multiple diversification and preservation models can make combined-evidence phylogenies more imbalanced but only a few make them look like empirical trees'
 
 1. Helper functions including tree building functions for each of the diversification models and sampling functions for each of the preservation regimes
 2. Script for simulating trees under each combination of diversification model and preservation regieme
