@@ -19,24 +19,28 @@ R Code
 
 ## Supplementary Data Summarising the Analyses
 1) CI_simulation_output_ne100.csv
-    Summary of the output of the trees simulated under each combination of diversification models and fossil sampling models produced using simultating_trees_e100.R and analysis_simulation.R. The dataset includes the number of fossil lineages on the simulated tree (Fossil_no), the number of fossil preserved by the fossil sampling models (Preservation), the length of the simulated tree (Tree_length), the starting speciation rate (lambda_init), the starting extinction rate (mu_init), the lower and upper bounds of the distributions parameterising the shifts in speciation and extinction rates (min_*_shift and max_*_shift), the number of extant species on the tree (n_extant), the diversification model under which the tree was simulated (model, see manuscript for a description of each model), the point in time in which the mass extinction event occurs (extinction_date, only relevant for models which include a mass extinction), the proportion of lineages which survive the extinction event (survivorship), the length of the root edge branch (root.edge, used to correct calculations of Tree_length for some of the diversification models), the point in time at which a universal shift in speciation rate occurs (shift_date, only relevant to the universal diversification rate shift model), the scaler for the universal speciation rate shift (shift_scaler), the limit of the size of the clade that arises from the key innovation (n_sub, only applicable to the density dependent with key innovation model), the point in time at which the key innovation arises (tinn), the fossil sampling model used to sample the extinct lineages (preservation), the Colless Index of imbalance for the simulated phylogeny (Index).
+
+Summary of the output of the trees simulated under each combination of diversification models and fossil sampling models produced using simultating_trees_e100.R and analysis_simulation.R. The dataset includes the number of fossil lineages on the simulated tree (Fossil_no), the number of fossil preserved by the fossil sampling models (Preservation), the length of the simulated tree (Tree_length), the starting speciation rate (lambda_init), the starting extinction rate (mu_init), the lower and upper bounds of the distributions parameterising the shifts in speciation and extinction rates (min_*_shift and max_*_shift), the number of extant species on the tree (n_extant), the diversification model under which the tree was simulated (model, see manuscript for a description of each model), the point in time in which the mass extinction event occurs (extinction_date, only relevant for models which include a mass extinction), the proportion of lineages which survive the extinction event (survivorship), the length of the root edge branch (root.edge, used to correct calculations of Tree_length for some of the diversification models), the point in time at which a universal shift in speciation rate occurs (shift_date, only relevant to the universal diversification rate shift model), the scaler for the universal speciation rate shift (shift_scaler), the limit of the size of the clade that arises from the key innovation (n_sub, only applicable to the density dependent with key innovation model), the point in time at which the key innovation arises (tinn), the fossil sampling model used to sample the extinct lineages (preservation), the Colless Index of imbalance for the simulated phylogeny (Index).
 
     
 2) ClaDS_summary_all_trees.csv
+
 Summary of the output of trees simulated using the parameters derived from ClaDS_simulation.R and ClaDS_empirical_simulation.R. The dataset includes the Colless-Index of imbalance for the complete tree and the tree sampled under each of the fossil sampling modes (CI_all, CI_diversified, CI_random, CI_trait_dependent, CI_time_dependent), the number of extinct lineages on the simulated tree (Fossils), Pybus and Harvey's Gamma statistic for each of the fossil sampling treatments (Gamma_*), the starting speciation rate (lambda_init), the starting extinction rate (mu_init), the number of extinct lineages sampled by the fossil sampling model (Preservation), the proportion of extant species sampled to bring the tree size into accordance with the empirical tree (sampling_fraction), , the length of the simulated tree (Tree_length), the diversification model under which the tree was simulated (model), the point in time in which the mass extinction event occurs (extinction_date, only relevant for models which include a mass extinction), the proportion of lineages which survive the extinction event (survivorship), the point in time at which a universal shift in speciation rate occurs (shift_date, only relevant to the universal diversification rate shift model), the scaler for the universal speciation rate shift (shift_scaler), the published total-evidence tree on which the simulation was based (tree, see manuscript for detailed description of each empirical phylogeny).
 preservation regime.
 
-## Data Avaliablity
+## Sharing/Access Information
 
-•	Dornburg et al.’s (2015) total-evidence phylogeny of Holocentridae is available in the Dryad Digital Repository, at https://doi.org/10.5061/dryad.b708j
+The study uses a number of previously published total-evidence of which all but one are available online. At the time of writing these phylogenies can be accessed via:
 
-•	Gustafson et al.’s (2017) total-evidence phylogeny of whirligig were provided by Dr Grey Gustafson by permission. Data will be shared on request to the corresponding author with permission of Dr Grey Gustafson.
+- Dornburg et al.’s (2015) total-evidence phylogeny of Holocentridae is available in the Dryad Digital Repository, at https://doi.org/10.5061/dryad.b708j
 
-•	Slater et al.’s (2017) total-evidence phylogeny of Mysticeti is available in the Dryad Digital Repository, at https://doi.org/10.5061/dryad.b68g0 
+- Gustafson et al.’s (2017) total-evidence phylogeny of whirligig were provided by Dr Grey Gustafson by permission. Data will be shared on request to the corresponding author with permission of Dr Grey Gustafson.
 
-•	Brennan’s (2019) total-evidence phylogeny of Macropodidae is available on the authors GitHub, at https://github.com/IanGBrennan/FossilUncertainty 
+- Slater et al.’s (2017) total-evidence phylogeny of Mysticeti is available in the Dryad Digital Repository, at https://doi.org/10.5061/dryad.b68g0 
 
-•	Koch and Thompson’s (2021) total-evidence phylogeny of Echinoidea is available in the Dryad Digital Repository, at https://datadryad.org/stash/dataset/doi:10.5061/dryad.7h44j0zr3 
+- Brennan’s (2019) total-evidence phylogeny of Macropodidae is available on the authors GitHub, at https://github.com/IanGBrennan/FossilUncertainty 
+
+- Koch and Thompson’s (2021) total-evidence phylogeny of Echinoidea is available in the Dryad Digital Repository, at https://datadryad.org/stash/dataset/doi:10.5061/dryad.7h44j0zr3 
 
 
 
