@@ -19,7 +19,9 @@ R Code
 
 Supplementary Data
 CI_simulation_output_ne100.csv
+    Summary of the output of the trees simulated under each combination of fiversification models and fossil sampling models produced using simultating_trees_e100.R and analysis_simulation.R. The dataset includes the number of fossil lineages on the simulated tree (Fossil_no), the number of fossil preserved by the fossil sampling models (Preservation), the length of the simulated tree (Tree_length), the starting speciation rate (lambda_init), the starting extinction rate (mu_init), the lower and upper bounds of the distributions parameterising the shifts in speciation and extinction rates (min_*_shift and max_*_shift), the number of extant species on the tree (n_extant), the diversification model under which the tree was simulated (model, see manuscript for a description of each model), the point in time in which the mass extinction event occurs (extinction_date, only relevant for models which include a mass extinction), the proportion of lineages which survive the extinction event (survivorship), the length of the root edge branch (root.edge, used to correct calculations of Tree_length for some of the diversification models), the point in time at which a universal shift in speciation rate occurs (shift_date, only relevant to the universal diversification rate shift model), the scaler for the universal speciation rate shift (shift_scaler), the limit of the size of the clade that arises from the key innovation (n_sub, only applicable to the density dependent with key innovation model), the point in time at which the key innovation arises (tinn), the fossil sampling model used to sample the extinct lineages (preservation), the Colless Index of imbalance for the simulated phylogeny (Index)
 
+    
 ClaDS_summary_all_trees.csv
 
 4. Script for analysing imbalance of trees simulated under each combination of diversification and preservation regime
