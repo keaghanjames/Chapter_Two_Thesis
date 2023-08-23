@@ -1,12 +1,20 @@
-# Imbalance and Total-Evidence Phylogenies
-Scripts associated with the production of 'Multiple diversification and preservation models can make combined-evidence phylogenies more imbalanced but only a few make them look like empirical trees'
+# Multiple diversification and fossil sampling models can make total-evidence phylogenies more imbalanced but only a few make them look like empirical trees
 
-1. Helper functions including tree building functions for each of the diversification models and sampling functions for each of the preservation regimes
-2. Script for simulating trees under each combination of diversification model and preservation regieme
-3. Script for analysing imbalance of trees simulated under each combination of diversification and preservation regime
-4. Script for estimating diversification parameters of empirical trees with CladDS and then simulating trees with those parameters under every combination of diversification model and preservation regime
-5. Script for analysing the imbalance of trees simulated from parameter values of empirical trees estimate with CladDS
-6. Script for making lolipop graph of empirical trees
+This repository includes R code for replicating the analyses and figures presented in this paper. It also includes several datasets summarising the outputs of these analyses. 
+
+## Description of the data and file structures
+R Code
+1) functions.R
+    A series of helper functions including tree building functions for each of the diversification models and sampling functions for each of the preservation regimes
+2) simultating_trees_e100.R
+   Script for simulating trees under each combination of diversification model and fossil sampling model
+3) analysis_simulation.R
+    Script for analysing the trees simulated using simultating_trees_e100.R
+4)
+4. Script for analysing imbalance of trees simulated under each combination of diversification and preservation regime
+5. Script for estimating diversification parameters of empirical trees with CladDS and then simulating trees with those parameters under every combination of diversification model and preservation regime
+6. Script for analysing the imbalance of trees simulated from parameter values of empirical trees estimate with CladDS
+7. Script for making lolipop graph of empirical trees
 
 CI_simulation_output_ne100.csv contains the input parameters and output values of the trees simulated under every combination of diversification model and preservation regime. 
 
