@@ -9,8 +9,19 @@ R Code
 2) simultating_trees_e100.R
    Script for simulating trees under each combination of diversification model and fossil sampling model
 3) analysis_simulation.R
-    Script for analysing the trees simulated using simultating_trees_e100.R
-4)
+   Script for analysing the trees simulated using simultating_trees_e100.R
+4) ClaDS_simulation.R
+   Script for fitting ClaDS models to empirical total-evidence phylogenies
+5) CLaDS_empirical_simulation.R
+   Script for simulating trees from the parameter values estimated using ClaDS_simulation.R
+6) lolipop.R
+   Script for reproducing Figure 5.
+
+Supplementary Data
+CI_simulation_output_ne100.csv
+
+ClaDS_summary_all_trees.csv
+
 4. Script for analysing imbalance of trees simulated under each combination of diversification and preservation regime
 5. Script for estimating diversification parameters of empirical trees with CladDS and then simulating trees with those parameters under every combination of diversification model and preservation regime
 6. Script for analysing the imbalance of trees simulated from parameter values of empirical trees estimate with CladDS
